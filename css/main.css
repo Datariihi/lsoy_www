@@ -1,0 +1,162 @@
+body, .container 
+{
+	background-color: black;
+	font-size: 12px;
+}
+
+p, a, h1, h2
+{
+	font-family: Arial;
+	color: white;
+}
+
+h1
+{
+	font-size: 200%; /*body-valitsimessa määritellystä perusfonttikoosta*/
+}
+
+h2
+{
+	font-size: 150%;
+}
+
+.header_main
+{
+	margin-top: 25px;
+	background-image: url("../images/headerbg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.logo_img_div
+{
+	padding-top: -25%;
+	padding-left: 25px;
+}
+
+.lang_select
+{
+	margin-right: 2%;
+	font-family: Arial;
+	font-size: 1.0em;
+	margin-top: 15px;
+}
+
+.lang_select > a, .lang_select > a:visited
+{
+	font-family: Arial;
+	font-size: 1.0em;
+	color: white;
+	text-decoration: none;
+}
+
+.lang_select > a:hover
+{
+	font-family: Arial;
+	font-size: 1.0em;
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar
+{
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+/* aliotsikkokuvien ja niiden divien tyylit */
+.content_header
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.content_header_img
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.black_content_text
+{
+	font-size: 100%;
+	color: black;
+}
+
+.vertspacer
+{
+	min-height: 30px;
+}
+
+/*Yrityksestä-sivun tyylit */
+.about_content
+{
+	padding-top: 25px;
+}
+
+.about_content_right_lower
+{
+	padding-top: 20px;
+}
+/* "Puun osto"-sivun tyylit */
+.purchase_content
+{
+	background-color: #eeeeee;
+}
+
+/* "Sahatavaran myynti"-, Yrityksestä- ja Yhteydenotto-sivujen tyylit */
+.sales_content, .about_content, .contact_content
+{
+	background-color: #e3e3e3;
+}
+
+/* Yleisiä sisällön tyylityksiä */
+.content_right
+{
+	border-left: 1px solid black;
+}
+
+.certs
+{
+	margin-top: 10px;
+}
+
+/* Yhteystiedot-sivun tyylityksiä */
+.contact_bold
+{
+	color: black;
+	font-weight: bold;
+}
+
+.contact_green
+{
+	color: #556426;
+}
+
+.contact_content
+{
+	padding-top: 25px;
+}
+
+.contact_content_left
+{
+	border-right: 1px solid black;
+}
+
+.footer
+{
+	margin-top: 50px;
+	padding-top: 15px;
+	border-top: 1px solid white;
+}
+
+.footer_text
+{
+	font-size: 0.8em;
+}
+
+.footer_text > a, .footer_text > a:hover, .footer_text > a:visited
+{
+	text-decoration: underline;
+	color: white;
+}
